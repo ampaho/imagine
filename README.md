@@ -3,7 +3,7 @@ R package for image manipulation (resize, crop, conversion) and animation
 
 ##Requirements
 
-You must install ImageMagick or GraphicsMagick to imagine to work
+You must install ImageMagick or GraphicsMagick for imagine to work
 
 ##Installation
 
@@ -14,9 +14,13 @@ install_github("ampaho/imagine")
 ##Usage
 There is only one function in the package and you can complete most tasks in one line
 
-###Animation
+###Animation using an alias
 
 	imagine("pic*.png", "pic.gif", list(operation="animation", delay=50))
+	
+###Animation with a vector files
+
+	imagine(c("pic1.png", "pic2.png", "pic20.png"), "pic.gif", list(operation="animation", delay=50))
 
 ###Image format conversiom
 
