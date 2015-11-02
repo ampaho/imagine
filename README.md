@@ -5,4 +5,4 @@ R package for image manipulation (resize, crop, conversion) and animation
 
 library(devtools)
 
-install_github("ampaho/imagine)
+install_github("ampaho/imagine")
