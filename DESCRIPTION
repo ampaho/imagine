@@ -1,0 +1,9 @@
+Package: imagine
+Type: Package
+Title: Image Manipulation (format conversion, crop, resize, animation)
+Version: 0.0.1
+Date: 2015-10-30
+Authors@R: person("Olalekan", "ABOU BAKAR", email = "houdan@jolome.com", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+License: MIT
+LazyData: TRUE
