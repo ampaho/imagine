@@ -97,7 +97,9 @@ imagine <- function(filename, output="", list.options=NULL){
 
   output_dim <- c(width, height)
 
-  if((grep("*", filename) > 0) || (length(filename) >1)){
+  if( ( regexpr("\\*", filename)[[1]] >= 0) || (length(filename) >1)){
+
+
 
     if(list.options$operation != "animation"){
       stop("The filename arguments says that you want to create an animation, so set list.options$operation to animation")
@@ -222,7 +224,7 @@ option.convert <- paste0("-", list.options$operation, " -rotate ", rotation_angl
 
   cmd <- paste(convert_path, shQuote(filename), option.convert, shQuote(output))
 
-  print(cmd)
+  #print(cmd)
 
   if(.Platform$OS.type == "windows")
     shell(cmd)

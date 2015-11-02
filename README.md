@@ -33,6 +33,7 @@ There is only one function in the package and you can complete most tasks in one
 ###Resize an image
 
 	imagine("large_picture.bmp", "resize_pic.png", list(operation="resize", with="200", ratio=0.8))
+	#could have used height as well, but ratio will keep the image proportion
 	
 ###Rotate an image
 
