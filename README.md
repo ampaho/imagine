@@ -43,4 +43,5 @@ There is only one function in the package and you can complete most tasks in one
 
 	* Draw an image using MVG
 	* Convert a SVG to any other format (from a an SVG file or inline)
-
+	* Modify an SVG file and save the result
+	* Introduce a new function to print the resulting file after any manipulation
