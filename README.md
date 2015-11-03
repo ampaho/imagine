@@ -39,8 +39,8 @@ There is only one function in the package and you can complete most tasks in one
 
 	imagine("Rlogo.png", "rotated_Rlogo.bmp", list(operation="flip", rotation=90))
 	
-##ToDO
+##Todo
 
-	* Draw an image using MGV
+	* Draw an image using MVG
 	* Convert a SVG to any other format (from a an SVG file or inline)
 
